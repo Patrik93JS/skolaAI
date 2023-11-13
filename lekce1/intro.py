@@ -65,3 +65,32 @@ class Osoba:
 stopar = Osoba("Arthur", "Dent")
 stopar.tisk()
 
+# seznam
+prvocisla = [2,3,5,7,11,13]
+print(prvocisla)
+prvocisla.append(19)
+print(prvocisla)
+
+bodxyz = (100, 120, 140)
+jinybodxyz = 101, 111, 121
+
+print(bodxyz)
+print(jinybodxyz)
+print(bodxyz[1])
+
+
+# slovnik
+byty = {"petr": 2, "jana": 5}
+print(byty["jana"])
+
+# mnoziny
+s = set()
+nakup = {"jabko", "hruska", "pomeranc"}
+print(nakup)
+
+nakup.add("tahini")
+print(nakup)
+nakup.remove("pomeranc")
+print(nakup)
+
+print("hruska" in nakup)
