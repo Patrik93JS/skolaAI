@@ -94,3 +94,15 @@ nakup.remove("pomeranc")
 print(nakup)
 
 print("hruska" in nakup)
+
+a = set("12345")
+b = set('2357')
+
+# prunik
+print(a & b)
+# sjednoceni
+print(a | b)
+# rozdil
+print(a - b)
+# xor
+print(a ^ b)
