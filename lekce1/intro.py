@@ -176,3 +176,14 @@ jmena = ["Petr", "Jana", "Albert", "Lumir"]
 print("Choice", rnd.choice(jmena))
 print('Shuffle', rnd.shuffle(jmena))
 
+import timeit
+start = timeit.default_timer()
+
+for i in range(1000000):
+    x = rnd.random()
+    y = rnd.random()
+    y-x
+
+end = timeit.default_timer()
+
+print(format(end-start, "0.2f"), "sekund")
